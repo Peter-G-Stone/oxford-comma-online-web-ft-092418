@@ -9,7 +9,7 @@ def oxford_comma(array)
     phrase = array.join(", ")
     phrase = phrase + ", and #{last}"
   elsif array.size == 1 
-    phrase = array
+    phrase = array.join
   end
 
   return phrase
