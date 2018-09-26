@@ -4,9 +4,11 @@ def oxford_comma(array)
   
   if array.size == 2 
     phrase = array.join(" and ")
-  elsif 
-  
-  end 
+  elsif array.size > 2
+    last = array.pop
+  elsif array.size == 1 
+    phrase
+  end
 
   phrase = array.join(", ")
   if last
