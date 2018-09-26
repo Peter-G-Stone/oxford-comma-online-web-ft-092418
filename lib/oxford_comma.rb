@@ -10,4 +10,6 @@ def oxford_comma(array)
   if last
     phrase = phrase + ", and #{last}"
   end 
+  
+  return phrase
 end
